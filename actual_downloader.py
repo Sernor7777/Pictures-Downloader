@@ -1,7 +1,7 @@
 import requests
 
 count = 0
-txt = input("What is the name of your txt file (without .txt and make sure to put the file in the same directory as the script)\n")
+txt = input("What is the name of your txt file (without .txt and make sure to put the file in the same directory as the script and make sure you have a folder called pictures in the same directory.)\n")
 
 with open(rf'{txt}.txt', 'r') as f:
     content = f.readlines()
