@@ -51,7 +51,7 @@ def open_file_location(txt_name):
 
 word = input("What photos do you want?\n")
 images_amount = int(input(
-    "How many pictures of that do you want?(max = 6000, Can be devided by 60)\n"))
+    "How many pictures of that do you want?(max = 6000, Can be divided by 60)\n"))
 if images_amount <= 6000:
     if images_amount % 60 == 0:
         pages_amount = (images_amount // 60) - 1
